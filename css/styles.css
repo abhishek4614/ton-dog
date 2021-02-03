@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu-Medium 100', sans-serif;
+}
+
+/* navigation bar  */
+
+.navbar {
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.navbar-brand {
+
+    font-family: 'Ubuntu-medium 100';
+}
+
+.nav-items {
+    color: #fff;
+    padding: 0 9px;
+}
+
+
+/* Title section */
+
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container {
+    padding: 3% 20%;
+}
+
+#title h1 {
+    font-family: 'Ubuntu-Medium 100', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.row {
+    padding-top: 4.5rem;
+}
+
+.sec2 {
+    padding-top: 4.5rem;
+    padding-right: 1rem;
+}
+
+#psec2 {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#title img {
+    margin-left: 50px;
+    width: 25%;
+    transform: rotate(10deg);
+
+    position: absolute;
+
+
+}
+
+#title img:hover {
+    transform: rotate(-20deg);
+
+}
+
+/* features section */
+
+#features {
+    padding: 2rem 12%;
+    position: relative;
+
+
+}
+
+#features h3 {
+    font-weight: bold;
+}
+
+#features p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(255, 1, 1);
+    padding: 0 1.8rem;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.icon {
+    color: rgb(201, 54, 1);
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 5px 5px 30px;
+    padding: 0 9px;
+}
+
+#pricing {
+    padding: 2% 10%;
+}
+
+#pricing h2 {
+    text-align: center;
+    background-color: #ff4c68;
+    border-radius: 50px;
+    padding: 2px 0px;
+}
+
+#pricing p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    text-align: center;
+}
+
+.card:hover {
+    transform: rotateZ(359deg);
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 2%;
+}
+
+#cta h3 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#cta .btn {
+    padding: 5px 10px;
+    margin: 3px 10px;
+}
+
+#footer {
+    padding: 1% 0%;
+    text-align: center;
+
+
+}
+
+#abhi {
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.cont {
+    padding: 2px 9px;
+}
+
+@media (max-width:991px) {
+    #title {
+        text-align: center;
+    }
+
+    #title img {
+        position: static;
+    }
+}
